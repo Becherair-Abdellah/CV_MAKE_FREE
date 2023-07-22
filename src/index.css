@@ -5,3 +5,13 @@
 body{
   @apply font-roboto bg-gray-800;
 }
+.psdo::after{
+  content: '';
+  width: 200px;
+  height: 2px;
+  @apply bg-green-600 absolute;
+}
+.psdo::after{
+  left: 0;
+  bottom: -1rem;
+}
