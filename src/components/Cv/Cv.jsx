@@ -11,12 +11,14 @@ function Cv() {
   return (
     <div className='w-[794px] h-[1123px] bg-gray-100 mx-auto p-4'>
       <div className='children' >
-        <div className="top flex gap-3 items-center">
+        <div className="top flex gap-16 items-center">
           <div className="twocompo">
             <Name/>
             <Summary/>
           </div>
+         
           <Contact/>
+          
         </div>
         <div className="bottom flex items-center">
           <div className='projects' >
