@@ -9,7 +9,7 @@ import Education from './Education'
 import Hobies from './Hobies'
 function Cv() {
   return (
-    <div className='w-[794px] h-[1123px] bg-gray-100 mx-auto p-4'>
+    <div className='w-[794px] h-full bg-gray-100 mx-auto p-4'>
       <div className='children' >
         <div className="top flex gap-16 items-center">
           <div className="twocompo">
@@ -20,7 +20,7 @@ function Cv() {
           <Contact/>
           
         </div>
-        <div className="bottom flex items-center">
+        <div className="bottom grid grid-cols-2">
           <div className='projects' >
             <Projects/>
           </div>
