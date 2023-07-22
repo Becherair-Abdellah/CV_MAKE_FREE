@@ -1,3 +1,8 @@
-# When I wanted to apply for a job as a front-end engineer, I knew I had to create a good and professional CV. I searched through various websites and found that most of them required payment, and the free ones didn't impress me. So, I decided that since I am a front-end engineer, I would craft my own CV using React. It took me just 3 hours of dedicated work to complete it.
+# React + Vite
 
-Creating My CV Using React.js as a Front-end Engineer
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
